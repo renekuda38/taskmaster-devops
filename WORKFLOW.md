@@ -84,6 +84,6 @@ git push
 ---
 
 ## Autor
-René Kuda  
+René Martin Kuda  
 Projekt: TaskMaster DevOps  
 Dátum: 15.10.2025
