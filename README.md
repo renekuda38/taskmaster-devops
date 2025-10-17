@@ -9,7 +9,7 @@ DevOps projekt pre učebné účely - CI/CD, Docker, Kubernetes.
 - Kubernetes deployment
 
 ## Autor
-René Kuďa
+René Kuda
 
 ## Poznámky
 Projekt vytvorený: 15.10.2025
