@@ -1,0 +1,16 @@
+{
+  "timestamp": "2025-10-21T22:05:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
