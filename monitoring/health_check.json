@@ -1,7 +1,7 @@
 {
-  "timestamp": "2025-10-21T22:05:01",
+  "timestamp": "2025-10-21T22:10:01",
   "hostname": "server-devops",
-  "cpu_usage": 4.8,
+  "cpu_usage": 4.5,
   "memory_usage": 15.00,
   "disk_usage": {
     "/boot": 31,
