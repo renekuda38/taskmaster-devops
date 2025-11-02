@@ -1,0 +1,21 @@
+.
+├── backups
+│   ├── logs_backup_20251020_160728.tar.gz
+│   └── logs_backup_20251020_161127.tar.gz
+├── Dockerfile
+├── logs
+│   ├── backup.log
+│   └── cron.log
+├── project_structure-backup_logs
+├── README.md
+├── scripts
+│   ├── backup_logs_2.sh
+│   └── backup_logs.sh
+├── var
+│   └── log
+│       └── myapp
+│           ├── app.log
+│           └── error.log
+└── WORKFLOW.md
+
+7 directories, 12 files
