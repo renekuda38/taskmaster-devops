@@ -1,0 +1,21 @@
+.
+├── Dockerfile
+├── logs
+│   ├── backup.log
+│   └── cron.log
+├── monitoring
+│   ├── health_check.json
+│   ├── health_report.md
+│   └── log_parser.py
+├── project_structure-health_check-log_parser
+├── README.md
+├── scripts
+│   └── health_check.sh
+├── var
+│   └── log
+│       └── myapp
+│           ├── app.log
+│           └── error.log
+└── WORKFLOW.md
+
+7 directories, 12 files
