@@ -18,3 +18,5 @@ Thumbs.db
 # Dependencies (budeme pridávať podľa potreby)
 node_modules/
 __pycache__/
+monitoring/*.json
+monitoring/*.md
