@@ -1,8 +1,1341 @@
+{"timestamp": "2025-10-27T14:25:01", "hostname": "server-devops", "cpu_usage": 8.7, "memory_usage": 14.00, "disk_usage": {"/boot": 31, "/": 15, "/boot/efi": 2}, "services": {"nginx": "stopped", "sshd": "running"}, "status": "ok"}
+{"timestamp": "2025-10-27T14:25:01", "hostname": "server-devops", "cpu_usage": 8.7, "memory_usage": 14.00, "disk_usage": {"/boot": 26, "/": 10, "/boot/efi": 2}, "services": {"nginx": "stopped", "sshd": "running"}, "status": "ok"}
+{"timestamp": "2025-10-27T14:25:01", "hostname": "server-devops", "cpu_usage": 8.7, "memory_usage": 14.00, "disk_usage": {"/boot": 40, "/": 17, "/boot/efi": 5}, "services": {"nginx": "stopped", "sshd": "running"}, "status": "ok"}
+{"timestamp": "2025-10-27T14:25:01", "hostname": "server-devops", "cpu_usage": 8.7, "memory_usage": 14.00, "disk_usage": {"/boot": 25, "/": 21, "/boot/efi": 2}, "services": {"nginx": "stopped", "sshd": "running"}, "status": "ok"}
+{"timestamp": "2025-10-27T14:25:01", "hostname": "server-devops", "cpu_usage": 8.7, "memory_usage": 14.00, "disk_usage": {"/boot": 29, "/": 11, "/boot/efi": 4}, "services": {"nginx": "stopped", "sshd": "running"}, "status": "ok"}
 {
-  "timestamp": "2025-10-21T22:10:01",
+  "timestamp": "2025-10-27T20:20:01",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-27T20:25:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-27T20:30:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-27T21:56:46",
   "hostname": "server-devops",
   "cpu_usage": 4.5,
   "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T06:40:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T06:45:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T06:50:01",
+  "hostname": "server-devops",
+  "cpu_usage": 9.1,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T06:55:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T07:15:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T07:20:02",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T07:25:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T07:30:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T07:35:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T07:40:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T07:45:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T07:50:01",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T07:55:01",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T08:00:02",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T08:05:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T08:10:01",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T08:45:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T08:50:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T08:55:01",
+  "hostname": "server-devops",
+  "cpu_usage": 12.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T09:00:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T09:05:01",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T09:10:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T09:15:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T09:20:01",
+  "hostname": "server-devops",
+  "cpu_usage": 13.0,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T09:25:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T09:30:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T09:35:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T10:25:01",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T10:30:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T10:35:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T10:40:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T10:45:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T10:50:01",
+  "hostname": "server-devops",
+  "cpu_usage": 9.1,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T10:55:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T11:00:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T11:05:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T11:10:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T11:15:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T11:20:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T11:25:01",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T11:30:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T11:35:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T11:40:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T11:45:01",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T11:50:01",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T11:55:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T12:00:01",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T12:15:01",
+  "hostname": "server-devops",
+  "cpu_usage": 9.1,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T12:20:01",
+  "hostname": "server-devops",
+  "cpu_usage": 5.9,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T12:25:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T12:30:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T12:35:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T12:40:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T12:45:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T12:50:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T12:55:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T13:00:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T13:05:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T13:10:02",
+  "hostname": "server-devops",
+  "cpu_usage": 9.1,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T13:15:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T13:20:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T13:25:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T13:30:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T13:35:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T13:40:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T13:45:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T13:50:01",
+  "hostname": "server-devops",
+  "cpu_usage": 9.1,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T13:55:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T14:00:01",
+  "hostname": "server-devops",
+  "cpu_usage": 9.1,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T14:05:01",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-10-28T14:10:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-11-02T21:00:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 15.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-11-02T21:05:01",
+  "hostname": "server-devops",
+  "cpu_usage": 9.1,
+  "memory_usage": 13.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-11-02T21:40:02",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-11-02T21:45:01",
+  "hostname": "server-devops",
+  "cpu_usage": 8.7,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-11-02T21:50:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.8,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-11-02T21:55:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-11-02T22:00:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-11-02T22:05:01",
+  "hostname": "server-devops",
+  "cpu_usage": 4.5,
+  "memory_usage": 14.00,
+  "disk_usage": {
+    "/boot": 31,
+    "/": 15,
+    "/boot/efi": 2
+  },
+  "services": {
+    "nginx": "stopped",
+    "sshd": "running"
+  },
+  "status": "ok"
+}
+{
+  "timestamp": "2025-11-02T22:10:02",
+  "hostname": "server-devops",
+  "cpu_usage": 9.1,
+  "memory_usage": 14.00,
   "disk_usage": {
     "/boot": 31,
     "/": 15,

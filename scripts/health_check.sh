@@ -10,7 +10,6 @@
 ##############################
 
 
-OUTPUT_FILE="monitoring/health_check.json"
 TIMESTAMP="$(date +"%Y-%m-%dT%H:%M:%S")"
 HOSTNAME="$(hostname)"
 
@@ -113,7 +112,7 @@ PROJECT_DIR="/home/rene/taskmaster-devops"
 OUTPUT_FILE="$PROJECT_DIR/monitoring/health_check.json"
 
 
-cat > "$OUTPUT_FILE" << EOF
+cat >> "$OUTPUT_FILE" << EOF
 {
   "timestamp": "$TIMESTAMP",
   "hostname": "$HOSTNAME",
@@ -140,6 +139,7 @@ done
 echo "  \"services\": {" >> $OUTPUT_FILE
 
 services_count="${#service_status[@]}"
+echo "-----------${services_count}"
 current=0
 for service in "${!service_status[@]}"; do
 	current=$((current + 1))
