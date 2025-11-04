@@ -16,7 +16,7 @@ services:
       - POSTGRES_DB=tasks
     volumes:
       - postgres_db_data:/var/lib/postgresql/data
-      - db/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
     networks:
       - taskmaster-network
 
