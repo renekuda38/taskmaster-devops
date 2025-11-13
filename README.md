@@ -1,15 +1,15 @@
 # TaskMaster DevOps
 
-DevOps projekt pre učebné účely - CI/CD, Docker, Kubernetes.
+DevOps project for learning purposes
 
-## Obsah
+## Contains
 - Git workflow setup
-- Docker kontajnerizácia
+- Docker containerization
 - CI/CD pipeline
 - Kubernetes deployment
 
-## Autor
+## Author
 René Martin Kuda
 
-## Poznámky
-Projekt vytvorený: 15.10.2025
+## Notes
+Project created: 15.10.2025
