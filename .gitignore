@@ -18,3 +18,7 @@ Thumbs.db
 # Dependencies (budeme pridávať podľa potreby)
 node_modules/
 __pycache__/
+
+
+# DB file
+devops_task_manager-db
