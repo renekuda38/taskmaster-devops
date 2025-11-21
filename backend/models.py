@@ -1,29 +1,26 @@
 # backend/models.py
 
-# Jasná separácia dátových modelov
-# Môžeš ich reusovať v iných častiach aplikácie
 
+from pydantic import BaseModel # valid lib
 
-from pydantic import BaseModel
-
-from typing import Optional
+from typing import Optional # pre volitelne fields
 from datetime import date
 
 
-# POST request body model
+# POST request body model - user posiela
 class TaskCreate(BaseModel):
     task_name: str
     task_desc: Optional[str] = None
     accomplish_time: int
 
 
-# GET request response model
+# GET request response model - API vracia
 class TaskResponse(BaseModel):
-    id: int
+    id: int # SERIAL tzn auto-generated
     task_name: str
     task_desc: Optional[str] = None
-    creation_date: date
-    done: bool
+    creation_date: date # CURRENT-DATE tzn auto-generated
+    done: bool # default FALSE
     accomplish_time: int
 
 
