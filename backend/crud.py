@@ -17,16 +17,16 @@ def create_task_db(task: TaskCreate):
         INSERT INTO tasks (task_name, task_desc, accomplish_time)
         VALUES (%s, %s, %s) RETURNING id, task_name, task_desc, creation_date, done, accomplish_time
         """,
-        (task.task_name, task.task_desc, task.accomplish_time)
+        (task.task_name, task.task_desc, task.accomplish_time) # pristupuje sa k attr pydantic obj
     )
 
-    result = cur.fetchone()
+    result = cur.fetchone() # dict
     conn.commit()
 
     cur.close()
     conn.close()
  
-    return result # vracia DICT
+    return result # vracia DICT z DB
 
 
 def get_all_tasks_db():
