@@ -43,7 +43,7 @@ def health_check():
 @app.post("/tasks", response_model=TaskResponse, status_code=201)
 def create_task(task: TaskCreate):
     # vytvori novy task
-    # input: TaskCreate - valid json od usera
+    # input: TaskCreate - valid json od usera -> fastapi + pydantic to parsuju na TaskCreate obj - tento obj sa vlozi do paramtra funckie
     # output: TaskResponse - vytvoreny task s ID
     # status: 201 Created
     try:
@@ -51,7 +51,7 @@ def create_task(task: TaskCreate):
         result = create_task_db(task) 
         # result = {'id': 5, 'task_name': 'Learn Docker', ...}
 
-        # FastAPI automaticky konvertuje na JSON pre HTTP response
+        # fastapi automaticky konvertuje na JSON pre HTTP response
 
         # vytvori novu instanciu typu TaskCreate
         # z DICT -> pydantic model
