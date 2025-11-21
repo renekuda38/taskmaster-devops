@@ -2,10 +2,11 @@
 
 from database import get_db_connection
 
-# To sú validované objekty ktoré prídu z app.py
-# crud.py ich použije na INSERT/UPDATE
+# validovane objekty
+# crud.py ich pouzije na INSERT/UPDATE
 from models import TaskCreate, TaskUpdate
 
+# RETURNING - vracia riadok po vytvoreni, updateovani a mazani
 
 def create_task_db(task: TaskCreate):
     conn = get_db_connection()
