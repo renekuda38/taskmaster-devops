@@ -25,8 +25,8 @@ def create_task_db(task: TaskCreate):
 
     cur.close()
     conn.close()
-
-    return result
+ 
+    return result # vracia DICT
 
 
 def get_all_tasks_db():
