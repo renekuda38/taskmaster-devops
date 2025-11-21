@@ -1,9 +1,9 @@
 .
-├── backups
+├── backups # vytvori skript
 │   ├── logs_backup_20251020_160728.tar.gz
 │   └── logs_backup_20251020_161127.tar.gz
 ├── Dockerfile
-├── logs
+├── logs # vytvori skript
 │   ├── backup.log
 │   └── cron.log
 ├── project_structure-backup_logs
