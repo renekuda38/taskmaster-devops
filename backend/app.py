@@ -1,5 +1,7 @@
 # backend/app.py
-from fastapi import FastAPI, HTTPException
+
+
+from fastapi import FastAPI, HTTPException # HTTP error handling
 from typing import List
 from models import TaskCreate, TaskUpdate, TaskResponse # validacia
 from database import test_db_connection
@@ -11,6 +13,7 @@ from crud import (
     delete_task_db
 )
 
+# fastapi appka, metadata pre swagger docs
 app = FastAPI(
     title="Task Manager API",
     description="Simple task management API with PostgreSQL",
@@ -21,7 +24,7 @@ app = FastAPI(
 
 @app.get("/")
 def read_root():
-    """Root endpoint - základný health check"""
+    """Root endpoint - zakladny health check"""
     return {"status": "healthy", "message": "Task Manager API is running"}
 
 @app.get("/health")
@@ -32,62 +35,71 @@ def health_check():
     if db_status:
         return {"status": "ok", "database": "connected"}
     else:
+        # 503 = Service Unavailable (server beží, ale DB nie)
         raise HTTPException(status_code=503, detail="Database connection failed")
 
 # ============= TASK CRUD ENDPOINTS =============
 
 @app.post("/tasks", response_model=TaskResponse, status_code=201)
 def create_task(task: TaskCreate):
-    """Vytvorí nový task"""
+    # vytvori novy task
+    # input: TaskCreate - valid json od usera
+    # output: TaskResponse - vytvoreny task s ID
+    # status: 201 Created
     try:
-        result = create_task_db(task) # ← Dostane DICT z crud.py
+        # vlozi task do DB -> dostane / vrati DICT z crud.py
+        result = create_task_db(task) 
         # result = {'id': 5, 'task_name': 'Learn Docker', ...}
 
         # FastAPI automaticky konvertuje na JSON pre HTTP response
 
-        # vytvoríš novú inštanciu (nový objekt) typu TaskCreate.
-        return TaskResponse(**result)  # Pydantic object ← Vytvorí TaskResponse z toho dict
+        # vytvori novu instanciu typu TaskCreate
+        # z DICT -> pydantic model
+        return TaskResponse(**result)  
         
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to create task: {str(e)}")
-
+        # 500 = Internal Server Error (DB crash, bug...)
 
 @app.get("/tasks", response_model=List[TaskResponse])
 def get_all_tasks():
-    """Vráti všetky tasky"""
+    # vrati vsetky tasky
     try:
-        tasks = get_all_tasks_db()
-        return [TaskResponse(**task) for task in tasks]
+        tasks = get_all_tasks_db() # nacita vsetky tasky z DB -> list of dicts
+        return [TaskResponse(**task) for task in tasks] # konvertuje kazdy dict -> TaskResponse
+        
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to fetch tasks: {str(e)}")
 
 
 @app.get("/tasks/{task_id}", response_model=TaskResponse)
 def get_task(task_id: int):
-    """Vráti konkrétny task podľa ID"""
+    # vrati task podla ID
     try:
-        task = get_task_by_id_db(task_id)
+        task = get_task_by_id_db(task_id) # hlada task v DB, dict alebo None
         
         if not task:
             raise HTTPException(status_code=404, detail=f"Task with id {task_id} not found")
+            # 404 = Not Found
         
         return TaskResponse(**task)
         
     except HTTPException:
-        raise
+        raise # re-raise HTTPException (404) bez zmeny
     except Exception as e:
-        raise HTTPException(status_code=500, detail=f"Failed to fetch task: {str(e)}")
+        raise HTTPException(status_code=500, detail=f"Failed to fetch task: {str(e)}") # ostatne errory
 
 
 @app.put("/tasks/{task_id}", response_model=TaskResponse)
 def update_task(task_id: int, task: TaskUpdate):
-    """Updatne existujúci task"""
+    # update existujuceho tasku
     try:
-        # Check if any fields to update
+        # kontrola ci user poslal aspon jeden field na update
+        # model_dump(exclude_unset=True) → vrati LEN fieldy, kt. user nastavil
         if not task.model_dump(exclude_unset=True):
             raise HTTPException(status_code=400, detail="No fields to update")
         
-        result = update_task_db(task_id, task)
+        result = update_task_db(task_id, task)  # updatne task v DB → dict alebo None
         
         if not result:
             raise HTTPException(status_code=404, detail=f"Task with id {task_id} not found")
@@ -101,13 +113,15 @@ def update_task(task_id: int, task: TaskUpdate):
 
 @app.delete("/tasks/{task_id}")
 def delete_task(task_id: int):
-    """Zmaže task"""
+    # zmaze task
     try:
+        # zmaze task z DB → dict (zmazany task) alebo None
         deleted_task = delete_task_db(task_id)
         
         if not deleted_task:
             raise HTTPException(status_code=404, detail=f"Task with id {task_id} not found")
-        
+
+        # vracia JSON - info ci sa podarilo zmazat
         return {"message": "Task deleted successfully", "id": deleted_task['id']}
 
     except HTTPException:
