@@ -1,12 +1,12 @@
 services:
   backend:
-    build: backend/
+    build: backend/ # zbuilduje sa z Dockerfile v backend/
     ports:
-      - 8000:8000
-    depends_on: 
+      - 8000:8000 # server uvicorn bezi deafult na 8000, local:container
+    depends_on: # backend pocka, kym DB bude healthy
       db:
         condition: service_healthy
-    environment:
+    environment: # env vars su v .env subore
       - DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/tasks
     networks:
       - taskmaster-network
@@ -16,22 +16,22 @@ services:
     environment:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
-      - POSTGRES_DB=${POSTGRES_DB}
+      - POSTGRES_DB=${POSTGRES_DB} # auto vytvorenie DB
     volumes:
-      - postgres_db_data:/var/lib/postgresql/data
-      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - postgres_db_data:/var/lib/postgresql/data # named volume, docker managed
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql # auto vytvori tabulky
     networks:
       - taskmaster-network
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U admin -d tasks"]
+    healthcheck: 
+      test: ["CMD-SHELL", "pg_isready -U admin -d tasks"] # overenie ci DB prijima connections
       interval: 5s # Docker spustí healthcheck každých 5 sekúnd.
       timeout: 5s # Ak pg_isready neodpovie do 5 sekúnd, healthcheck zlyhá.
       retries: 5 # Po 5 neúspešných pokusoch bude služba považovaná za nezdravú.
 
 volumes:
   postgres_db_data:
-    driver: local
+    driver: local # data na local disk, moze byt cloud -> napr: rexray/ebs
 
-networks:
+networks: # backend a DB su v jednej sieti
   taskmaster-network:
-    driver: bridge
+    driver: bridge # veth for each container, DG -> docker0
