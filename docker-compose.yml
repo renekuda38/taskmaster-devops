@@ -7,7 +7,7 @@ services:
       db:
         condition: service_healthy
     environment: # env vars su v .env subore
-      - DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/tasks
+      - DATABASE_URL=postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB}
     networks:
       - taskmaster-network
 
@@ -23,7 +23,7 @@ services:
     networks:
       - taskmaster-network
     healthcheck: 
-      test: ["CMD-SHELL", "pg_isready -U {POSTGRES_USER} -d ${POSTGRES_DB}"] # overenie ci DB prijima connections
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"] # overenie ci DB prijima connections
       interval: 5s # Docker spustí healthcheck každých 5 sekúnd.
       timeout: 5s # Ak pg_isready neodpovie do 5 sekúnd, healthcheck zlyhá.
       retries: 5 # Po 5 neúspešných pokusoch bude služba považovaná za nezdravú.
